@@ -1,0 +1,6 @@
+[submodule "vendor/CodeIgniter"]
+	path = vendor/CodeIgniter
+	url = https://github.com/EllisLab/CodeIgniter.git
+[submodule "application/third_party/Smarty"]
+	path = application/third_party/Smarty
+	url = https://github.com/Icefish/Smarty-3.git
