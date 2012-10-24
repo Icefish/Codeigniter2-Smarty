@@ -44,7 +44,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+	
+	    $this->load->driver('minify');
+		$data['css'] = $this->minify->min('css/427d3fa.css');		
+		$this->load->view('welcome_message', $data);
 	}
 
 	/**

@@ -90,6 +90,10 @@
 		-webkit-box-shadow: 0 0 8px #D0D0D0;
 	}
 	</style>
+	<style type="text/css">
+	<?php //echo $css;?>
+	</style>
+	
 </head>
 <body>
 
